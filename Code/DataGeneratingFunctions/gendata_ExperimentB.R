@@ -56,7 +56,6 @@ gendata_ExperimentB = function(n = 100, p = 20, m = 50, r = 0, depX = TRUE){
     
   }
 
-  
   # Generate quantile functions:
   mseq = seq(1 / (2 * m), 1 - 1 / (2 * m), 1 / m)
   mseq = rep(mseq, each = n)
